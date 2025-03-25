@@ -5,135 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Assignment 3</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
         table {
             border-collapse: collapse;
-            margin: 10px 0;
-            width: 80%;
-            border: 1px solid black;
-            margin-left: auto;
-            margin-right: auto;
+            width: 100%;
+            margin: 20px 0;
         }
-
         th, td {
-            border: 1px solid black;
-            padding: 5px;
+            border: 1px solid #dddddd;
+            padding: 8px;
             text-align: left;
         }
-
+        .middle {
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
         .center {
             text-align: center;
         }
-
         .right {
             text-align: right;
-        }
-
-        .green {
-            background-color: green;
-            color: white;
-        }
-
-        .blue {
-            background-color: blue;
-            color: white;
-        }
-
-        h1 {
-            text-align: center;
         }
     </style>
 </head>
 <body>
     <h1>HTML Assignment #3</h1>
-
-    <!-- Table 1 -->
+    
+    <h2>Table 1 Example</h2>
     <table id="table-1" class="middle">
         <tr>
-            <td id="t11">left</td>
-            <td id="t12" class="center">center</td>
-            <td id="t13" class="right">right</td>
+            <td id="t11">Cell 1</td>
+            <td id="t12">Cell 2</td>
+            <td id="t13" class="right">Cell 3</td>
         </tr>
         <tr>
-            <td>left</td>
-            <td class="center">center</td>
-            <td class="right">right</td>
+            <td>Cell 4</td>
+            <td class="center">Cell 5</td>
+            <td class="right">Cell 6</td>
         </tr>
         <tr>
-            <td>left</td>
-            <td class="center">center</td>
-            <td class="right">right</td>
+            <td>Cell 7</td>
+            <td>Cell 8</td>
+            <td class="right">Cell 9</td>
         </tr>
     </table>
-
-    <!-- Table 2 -->
+    
+    <h2>Table 2 Example</h2>
     <table id="table-2" class="middle">
         <tr>
-            <td id="t21" colspan="6">Header Spanning All Columns</td>
+            <td id="t21" colspan="6">This is a single cell spanning all 6 columns</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+            <td>Row 2, Cell 4</td>
+            <td>Row 2, Cell 5</td>
+            <td>Row 2, Cell 6</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+            <td>Row 3, Cell 4</td>
+            <td>Row 3, Cell 5</td>
+            <td>Row 3, Cell 6</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Row 4, Cell 1</td>
+            <td>Row 4, Cell 2</td>
+            <td>Row 4, Cell 3</td>
+            <td>Row 4, Cell 4</td>
+            <td>Row 4, Cell 5</td>
+            <td>Row 4, Cell 6</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Row 5, Cell 1</td>
+            <td>Row 5, Cell 2</td>
+            <td>Row 5, Cell 3</td>
+            <td>Row 5, Cell 4</td>
+            <td>Row 5, Cell 5</td>
+            <td>Row 5, Cell 6</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
-
-    <!-- Table 3 -->
-    <table id="table-3" class="middle">
-        <tr class="green">
-            <td colspan="6">First Row</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td id="t-image" colspan="2" class="center"><img src="https://via.placeholder.com/200x100" alt="Placeholder Image"></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr class="blue">
-            <td colspan="6">Last Row</td>
+            <td>Row 6, Cell 1</td>
+            <td>Row 6, Cell 2</td>
+            <td>Row 6, Cell 3</td>
+            <td>Row 6, Cell 4</td>
+            <td>Row 6, Cell 5</td>
+            <td>Row 6, Cell 6</td>
         </tr>
     </table>
 </body>
